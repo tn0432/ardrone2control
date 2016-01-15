@@ -42,8 +42,6 @@ The optitrack motion capture system will estimate the current position of AR.Dro
 
 In the beginning, AR.Drone is at manual control state with very small value of Thrust. I use joystick for manual control. When it transfers to trajectory control state, the value of Thrust is set by the error of height. AR.Drone will start to track the desired circle trajectory. So, <b>please focus on the safety issues when the flight mode is transfered to trajectory control!</b>  
 
-### How to conduct the real-time experiment?
-
 ### Status
 [January 2016] Upload the code project to github
 
