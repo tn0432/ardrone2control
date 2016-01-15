@@ -1,11 +1,12 @@
 # ardrone2control
-Trajectory Control of AR.Drone ver 2.0 quadrotor model
+Project: Trajectory Control of AR.Drone ver 2.0 quadrotor model </br>
+Authors: Trung Nguyen and Oscar De Silva </br>
+Intelligent Systems Lab - Memorial University of Newfoundland - Canada 
 
 The project can be used for researching quadrotor with specific topics:
 - Trajectory control or path following
 - State estimation (Attitude and Heading Reference System)
 - Trajectory generation or path planning
-
 
 ### Equipments
 1. AR.Drone quadrotor ver 2.0 
@@ -16,7 +17,7 @@ The project can be used for researching quadrotor with specific topics:
 ### Driver for AR.Drone ver 2.0
 The C code project is in folder ardrone2islab. Steps to complie and upload the code to AR.Drone are presented following: 
 1. Prepare your code for attitude control to upload to AR.Drone<br/>
-2. [First time install compiler] do it <br/>
+2. [First time install compiler] Please follow the steps in the following link to setup the compiler as well as test simple program uploading to AR.Drone <br/> <link>http://taghof.github.io/Navigation-for-Robots-with-WIFI-and-CV/blog/2012/01/13/Compiling-Code-For-The-ARDrone/</link> <br/>
 3. Open new terminal to setup compiler, <code>codesourcery-arm-2009q3.sh</code><br/>
 4. cd to your folder ardrone2islab, <code>make</code> , it will generate an executive file fly_ardrone_pid<br/>
 5. Connect to AR.Drone wifi, the IP of AR.Drone: 192.168.1.1<br/>
@@ -35,3 +36,8 @@ How to run your file on AR.Drone board?
 
 ### Status
 [January 2016] Upload the code project to github
+
+### Reference
+http://taghof.github.io/Navigation-for-Robots-with-WIFI-and-CV/blog/2012/01/13/Compiling-Code-For-The-ARDrone/
+http://wiki.paparazziuav.org/wiki/AR_Drone_2
+http://blog.perquin.com/blog/category/ardrone/
