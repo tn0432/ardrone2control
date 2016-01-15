@@ -46,7 +46,7 @@ In the beginning, AR.Drone is at manual control state with very small value of T
 [January 2016] Upload the code project to github
 
 ### Support or Contact
-Trung Nguyen (tn0432@mun.ca), Oscar De Silva (sendtooscar@gmail.com)
+Trung Nguyen (tn0432@mun.ca)<br/>
 Intelligent Systems Lab, Memorial University of Newfoundland, Canada
 
 ### Reference
