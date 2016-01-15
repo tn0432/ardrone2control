@@ -45,6 +45,10 @@ In the beginning, AR.Drone is at manual control state with very small value of T
 ### Status
 [January 2016] Upload the code project to github
 
+### Support or Contact
+Trung Nguyen (tn0432@mun.ca), Oscar De Silva (sendtooscar@gmail.com)
+Intelligent Systems Lab, Memorial University of Newfoundland, Canada
+
 ### Reference
 http://taghof.github.io/Navigation-for-Robots-with-WIFI-and-CV/blog/2012/01/13/Compiling-Code-For-The-ARDrone/ <br/>
 http://wiki.paparazziuav.org/wiki/AR_Drone_2 <br/>
