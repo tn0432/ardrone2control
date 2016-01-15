@@ -12,7 +12,7 @@ The project can be used for researching quadrotor with specific topics:
 1. AR.Drone quadrotor ver 2.0 
 2. Ground station (desktop or laptop) with ROS Fuerte installed
 3. Optitrack motion capture system (or camera mounting on the ceiling) 
-4. Joystick (optional)
+4. Joystick Logitech Attrack3 (optional)
 
 ### Driver for AR.Drone ver 2.0
 The C code project is in folder ardrone2islab: <link>https://github.com/tn0432/ardrone2islab.git</link> <br/>
