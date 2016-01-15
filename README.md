@@ -10,7 +10,7 @@ The project can be used for researching quadrotor with specific topics:
 
 ### Equipments
 1. AR.Drone quadrotor ver 2.0 
-2. Ground station (desktop or laptop) with ROS Fuerte installed
+2. Ground station (desktop or laptop) with ROS (Fuerte, Hydro or Indigo) installed
 3. Optitrack motion capture system (or camera mounting on the ceiling) 
 4. Joystick Logitech Attrack3 (optional)
 
