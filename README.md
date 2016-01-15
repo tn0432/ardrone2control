@@ -26,20 +26,21 @@ Steps to complie and upload the code to AR.Drone are presented following:
 7. Until see connection successful, Press Enter<br/>
 8. <code>put fly_ardrone_pid</code>. Now your file is in AR.Drone
 
-How to run your file on AR.Drone board?<br/>
+<b>How to run your file on AR.Drone board?</b><br/>
 1. Open new terminal or Ctrl+Alt+T<br/>
 2. <code> telnet 192.168.1.1 </code> <br/>
 3. <code> cd ./data/video/fly_ardrone_pid </code> <br/>
 
-The optitrack motion capture system will estimate the current position of AR.Drone and send that position to the ground station. The ROS driver for motion capture system is [mocap_optitrack](http://wiki.ros.org/mocap_optitrack). In a ground station (your desktop), a ROS node (communication_node_pid_semitrajectorycontrol3) is used to calculate control signals sent to AR.Drone. The control signals are desired Thrust, Pitch, Roll, Yaw.
-
-How to restart AR.Drone back to original manufacturing?
+<b>How to restart AR.Drone back to original manufacturing? or How to make emergency stop for AR.Drone during flight?</b><br/>
 Simple method is unpluging battery from AR.Drone and pluging it in again, or use following commands: <br/>
 1. Open new terminal or Ctrl+Alt+T<br/>
 2. <code> telnet 192.168.1.1 </code> <br/>
 3. <code> cd ./sbin/reboot </code> <br/>
 
 ### ROS node for ground station
+The optitrack motion capture system will estimate the current position of AR.Drone and send that position to the ground station. The ROS driver for motion capture system is [mocap_optitrack](http://wiki.ros.org/mocap_optitrack). In a ground station (your desktop), a ROS node (communication_node_pid_semitrajectorycontrol3) is used to calculate control signals sent to AR.Drone. The control signals are desired Thrust, Pitch, Roll, Yaw.
+
+In the beginning, AR.Drone is at manual control state with very small value of Thrust. I use joystick for manual control. When it transfers to trajectory control state, the value of Thrust is set by the error of height. AR.Drone will start to track the desired circle trajectory. So, <b>please focus on the safety issues when the flight mode is transfered to trajectory control!</b>  
 
 ### How to conduct the real-time experiment?
 
